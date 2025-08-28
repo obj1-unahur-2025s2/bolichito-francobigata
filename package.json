@@ -1,7 +1,12 @@
 {
   "name": "bolichito",
   "version": "1.0.0",
-  "wollokVersion": "4.0.0",
+  "wollokVersion": "4.2.0",
   "author": "hernan",
-  "license": "ISC"
+  "license": "ISC",
+  "scripts": {
+    "build": "wollok build",
+    "repl": "wollok repl",
+    "clean": "wollok clean"
+  }
 }
